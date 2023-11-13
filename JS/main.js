@@ -17,6 +17,7 @@ let faceBook = {
   views: 69,
 };
 
+// opdracht 3 
 const products = [
   {
     title: "Paprika chips",
@@ -38,6 +39,7 @@ const products = [
   },
 ];
 
+console.log(products);
 // opdracht 4
 let car1 = {
   title: "Porsche Cayenne 4.8 S Tiptronic S 2012 Zwart",
@@ -61,16 +63,67 @@ let car3 = {
   title: "Land Rover Range Rover Sport 2.0 P400e 404 pk",
   description:
     "Achterbank verwarmd, Achteropkomend verkeer waarschuwing, Achteruitrijcamera (086FA), Alarmsysteem, Automatische dimmende achteruitkijkspiegel (031CG), Autonomous Emergency Braking, Cruise control",
-  price: "€ 62.945,"
+  price: "€ 62.945,",
   kilometer: "120.070 km",
   buildDate: "2019",
 };
 
 // opdracht 5
 
-letitem1 = {
+let opdracht8array = [
+  {
   title: "Danerolles croissants",
   beschrijving: "240 g",
   actie: "per blik 1.39",
   prijs: 1.39,
+}, 
+{
+  title: "Danerolles croissants",
+  beschrijving: "240 g",
+  actie: "per blik 1.39",
+  prijs: 1.39,
+}, 
+{
+  title: "Dubbelfris",
+  beschrijving: "Pak 1.5 liter",
+  actie: "per fles 1.29",
+  prijs: 1.29,
+}]
+console.log(opdracht8array);
+
+
+
+// opdracht 6 
+let s23Ultra = {
+  processor: "snapdragon 8 Gen2",
+  battery: "5400mah",
+  panel: "3088 x 1440",
+  size: "17.27 cm",
+  ram: "12GB",
+  Storage: "512GB",
 };
+
+let googlePixel8Pro = {
+  processor: "snapdragon 8 Gen2",
+  battery: "5050mah",
+  panel: "2992 x 1344 ",
+  size: "15,24 cm",
+  ram: "12GB",
+  Storage: "128GB",
+};
+
+let iphone15ProMax = {
+  processor: "Apple A17 Pro",
+  battery: "4422mah",
+  panel: "2796x1290",
+  size: "16,15 cm",
+  ram: "8 GB",
+  Storage: "1TB",
+};
+
+
+// opdracht 7 
+
+for(let i = 0; i<products.length , i++ ;) {
+console.log(products[i]);
+}
