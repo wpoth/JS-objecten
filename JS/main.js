@@ -124,6 +124,45 @@ let iphone15ProMax = {
 
 // opdracht 7 
 
-for(let i = 0; i<products.length , i++ ;) {
-console.log(products[i]);
+for (let i = 0; i < products.length; i++) {
+  console.log(products[i]);
 }
+
+// opdracht 8 
+
+for (let i = 0; i < opdracht8array.length; i++) {
+  console.log(opdracht8array[i]);
+}
+
+// opdracht 9 
+
+const cardContainer = document.querySelector(".cardContainer");
+
+
+for (let i = 0; i < products.length; i++) {
+  const cardHTML = `
+    <div class="card">
+      <h2>${products[i].title}</h2>
+      <p>Description: ${products[i].description}</p>
+      <p>Healthy: ${products[i].healthy}</p>
+    </div>
+  `;
+  cardContainer.innerHTML += cardHTML;
+}
+
+// opdracht 10 
+  // Get the container element
+  const cardContainer2 = document.querySelector("cardContainer2");
+
+  // Generate HTML content for each card and append it to the container
+  for (let i = 0; i < opdracht8array.length; i++) {
+    const cardHTML = `
+      <div class="card">
+        <h2>${opdracht8array[i].title}</h2>
+        <p>Beschrijving: ${opdracht8array[i].beschrijving}</p>
+        <p>Actie: ${opdracht8array[i].actie}</p>
+        <p>Prijs: €${opdracht8array[i].prijs.toFixed(2)}</p>
+      </div>
+    `;
+    cardContainer.innerHTML += cardHTML;
+  }
